@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+.odin-recipes{
+    font-size: 48px;
+    margin-top: 0;
+    margin-left: 400px;
+}
+.spinach-body{
+    font-family: Helvetica,sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+}
+.recipe-pic{
+margin-left: 200px;
+}
+.spinach-uses{
+    margin-left: 50px;
+}
+.spinach-pasta{
+    display: flex;
+    font-size: 20px;
+    margin-bottom: -20px;
+
+}
+.spinach-words{
+    font-family: Helvetica,sans-serif;
+    color: rgba(0, 0, 0, .95);
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 15px;
+    width: 1000px;
+    line-height: 30px;
+}
+
+.unordered{
+    border: 1px solid rgb(206, 206, 206);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    width: 550px;
+    height: 300px;
+    margin-left: 50px;
+
+
+}
+.ingredient{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+.steps-body{
+    width: 800px;
+    margin-left: 200px;
+}
+
+
+.steps{
+    display: flex;
+}
+.spinach-sentences,
+.sub-ingredient{
+    font-family: SourceSansPro,Helvetica,sans-serif;
+    font-size: 1.1rem;
+    line-height: 35px;
+}
+
+.cheese-description{
+    display: flex;
+    gap: 150px;    
+}
+.Description{
+    font-size: 34px;
+    font-weight: 600px;
+}
+.cheese-pic,
+.body-ingredient{
+    width: 550px;
+    margin-left: 40px;
+}
+.cheese-words{
+    margin-right: 50px;
+    font-size: 20px;
+    line-height: 30px;
+    width: 500px;
+}
+
+.body-ingredient{
+    border: 1px solid rgb(206, 206, 206);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    width: 450px;
+    height: 180px;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: white;
+}
+.main-ingredient{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-left: 30px;
+}
+.list-ingredient{
+    font-family: SourceSansPro,Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+.everything{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    margin-top: 20px;
+    background-color: rgb(238, 238, 238);
+}
+.steps-1{
+    font-size: 20px;
+    line-height: 30px;
+    width: 500px;
+    margin-right: 120px;
+}
